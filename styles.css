@@ -333,3 +333,34 @@ h2 {
 section {
   scroll-margin-top: 100px;
 }
+/* Logo em texto premium */
+.logo-text,
+.logo-text:visited {
+  font-family: 'Cormorant Garamond', Georgia, serif !important;
+  font-size: 28px !important;
+  font-weight: 700 !important;
+  color: #2C2520 !important;
+  text-decoration: none !important;
+  letter-spacing: -0.02em !important;
+}
+
+.logo-text:hover {
+  color: #9B5C5F !important;
+  text-decoration: none !important;
+}
+
+/* Cabeçalho premium fixo */
+.header {
+  background: #fff9f5 !important;
+  padding: 18px 32px !important;
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 9999 !important;
+  box-shadow: 0 4px 18px rgba(44, 37, 32, 0.08) !important;
+}
+
+.header .container {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+}
