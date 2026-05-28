@@ -303,3 +303,33 @@ h2 {
     width: 100%;
   }
 }
+/* Correção do cabeçalho fixo no GitHub Pages */
+.header {
+  background: #fff9f5 !important;
+  padding: 18px 32px !important;
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 9999 !important;
+  box-shadow: 0 4px 18px rgba(44, 37, 32, 0.08) !important;
+}
+
+/* Correção visual da logo caso a imagem falhe */
+.logo {
+  font-family: 'Cormorant Garamond', Georgia, serif !important;
+  font-size: 28px !important;
+  font-weight: 700 !important;
+  color: #2C2520 !important;
+  text-decoration: none !important;
+}
+
+.logo img {
+  max-height: 52px !important;
+  width: auto !important;
+  display: inline-block !important;
+  vertical-align: middle !important;
+}
+
+/* Ajuste para o topo não cobrir o conteúdo ao rolar */
+section {
+  scroll-margin-top: 100px;
+}
